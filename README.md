@@ -13,14 +13,16 @@ Java SE Development Kit 11 [Download](https://www.oracle.com/br/java/technologie
 
 IntelliJ IDEA Community [Download](https://www.jetbrains.com/pt-br/idea/download/#section=windows)
 
+Sistema Operacional Windows
+
 ## Organização do Curso
 
 • Aula – 1 Introdução ao Curso e Conceitos Básicos
 
-    ◦ [ Etapa 1 ] Apresentação pessoal
-    ◦ [ Etapa 2 ] Apresentação do curso
-    ◦ [ Etapa 3 ] Conteituação de Memória
-    ◦ [ Etapa 4 ] Atribuição e Referência em Java
+    ◦ [ Etapa 1 ] - Apresentação pessoal
+    ◦ [ Etapa 2 ] - Apresentação do curso
+    ◦ [ Etapa 3 ] - Conteituação de Memória
+    ◦ [ Etapa 4 ] - Atribuição e Referência em Java
     ◦ [ Etapa 5 ] - Conceito de nó e Encadeamento de nó
 
 • Aula – 2 Pilhas [LIFO: Last In, First Out]
@@ -65,7 +67,7 @@ IntelliJ IDEA Community [Download](https://www.jetbrains.com/pt-br/idea/download
 
 • Aula – 8 Principais Implementações das estruturas de dados do Java
 
-    ◦ [ Etapa 1] – Stack (Pilha)
+    ◦ [ Etapa 1 ] – Stack (Pilha)
     ◦ [ Etapa 2 ] – Queue (Fila)
     ◦ [ Video 3 ] - ArrayList (Listas)
     ◦ [ Etapa 4 ] - HashSet
