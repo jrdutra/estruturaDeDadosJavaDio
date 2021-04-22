@@ -22,8 +22,9 @@ Sistema Operacional Windows
     ◦ [ Etapa 1 ] - Apresentação pessoal
     ◦ [ Etapa 2 ] - Apresentação do curso
     ◦ [ Etapa 3 ] - Conceito de Memória
-    ◦ [ Etapa 4 ] - Atribuição e Referência em Java
-    ◦ [ Etapa 5 ] - Conceito de nó e Encadeamento de nó
+    ◦ [ Vídeo 4 ] - Instalação e Configuração do Ambiente
+    ◦ [ Etapa 5 ] - Atribuição e Referência em Java
+    ◦ [ Etapa 6 ] - Conceito de nó e Encadeamento de nó
 
 • Aula – 2 Pilhas [LIFO: Last In, First Out]
 
