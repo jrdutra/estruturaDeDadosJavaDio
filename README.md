@@ -7,7 +7,7 @@ Apresentações/Slides utilizados durante as aulas. [Acessar](https://github.com
 
 Projetos/Código Fonte desenvolvidos durantes as aulas. [Acessar](https://github.com/jrdutra/estruturaDeDadosJavaDio/tree/main/projetos)
 
-Ementa/Roteiro do curso. [Acessar]()
+Ementa/Roteiro do curso. [Acessar](https://github.com/jrdutra/estruturaDeDadosJavaDio/blob/main/Ementa-curso.pdf)
 
 ## Pré-requisitos
 
