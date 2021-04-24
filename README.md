@@ -21,12 +21,11 @@ Sistema Operacional Windows
 
 • Aula – 1 Introdução ao Curso e Conceitos Básicos
 
-    ◦ [ Etapa 1 ] - Apresentação pessoal
-    ◦ [ Etapa 2 ] - Apresentação do curso
-    ◦ [ Etapa 3 ] - Conceito de Memória
-    ◦ [ Vídeo 4 ] - Instalação e Configuração do Ambiente
-    ◦ [ Etapa 5 ] - Atribuição e Referência em Java
-    ◦ [ Etapa 6 ] - Conceito de nó e Encadeamento de nó
+    ◦ [ Etapa 1 ] - Apresentação
+    ◦ [ Etapa 2 ] - Conceito de Memória
+    ◦ [ Vídeo 3 ] - Instalação e Configuração do Ambiente
+    ◦ [ Etapa 4 ] - Atribuição e Referência em Java
+    ◦ [ Etapa 5 ] - Conceito de nó e Encadeamento de nó
 
 • Aula – 2 Pilhas [LIFO: Last In, First Out]
 
@@ -43,14 +42,14 @@ Sistema Operacional Windows
 • Aula – 4 Listas Encadeadas
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Encadeadas
-    ◦ [ Etapa 2 ] - Implementação da classe ListaEncadeada ()
+    ◦ [ Etapa 2 ] - Implementação da classe ListaEncadeada()
     ◦ [ Etapa 3 ] - Utilização da Classe ListaEncadeada
 
 • Aula – 5 Listas Duplamente Encadeadas
 
-    ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Encadeadas
-    ◦ [ Etapa 2 ] - Implementação da classe ListaEncadeada()
-    ◦ [ Etapa 3 ] - Utilização da Classe ListaEncadeada
+    ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Duplamente Encadeadas
+    ◦ [ Etapa 2 ] - Implementação da classe ListaDuplamenteEncadeada()
+    ◦ [ Etapa 3 ] - Utilização da Classe ListaDuplamenteEncadeada
 
 • Aula – 6 Listas Circulares
 
@@ -70,9 +69,10 @@ Sistema Operacional Windows
 
 • Aula – 8 Principais Implementações das estruturas de dados do Java
 
-    ◦ [ Etapa 1 ] – Stack (Pilha)
-    ◦ [ Etapa 2 ] – Queue (Fila)
-    ◦ [ Video 3 ] - ArrayList (Listas)
-    ◦ [ Etapa 4 ] - HashSet
-    ◦ [ Etapa 5 ] - HashMap 
-    ◦ [ Video 6 ] - Conclusão
+    ◦ [ Etapa 1 ] - Conceitos de equals e hashCode
+    ◦ [ Etapa 2 ] - Stack (Pilha)
+    ◦ [ Etapa 3 ] - Queue (Fila)
+    ◦ [ Etapa 4 ] - List (ArrayList, LikedList, Vector)
+    ◦ [ Etapa 5 ] - HashSet
+    ◦ [ Etapa 6 ] - HashMap 
+    ◦ [ Etapa 7 ] - Conclusão
