@@ -7,6 +7,8 @@ Apresentações/Slides utilizados durante as aulas. [Acessar](https://github.com
 
 Projetos/Código Fonte desenvolvidos durantes as aulas. [Acessar](https://github.com/jrdutra/estruturaDeDadosJavaDio/tree/main/projetos)
 
+Ementa/Roteiro do curso. [Acessar]()
+
 ## Pré-requisitos
 
 Java SE Development Kit 11 [Download](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html)
