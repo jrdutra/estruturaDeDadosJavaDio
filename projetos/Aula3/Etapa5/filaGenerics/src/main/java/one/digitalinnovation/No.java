@@ -1,21 +1,21 @@
 package one.digitalinnovation;
 
-public class No {
-    private Object object;
+public class No<T> {
+    private T object;
     private No refNo = null;
 
     public No() {
     }
 
-    public No(Object object) {
+    public No(T object) {
         this.object = object;
     }
 
-    public Object getObject() {
+    public T getObject() {
         return object;
     }
 
-    public void setObject(Object object) {
+    public void setObject(T object) {
         this.object = object;
     }
 

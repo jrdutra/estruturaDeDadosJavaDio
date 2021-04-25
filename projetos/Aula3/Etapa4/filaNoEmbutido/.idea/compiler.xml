@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="filaNoEmbutido" />
         <module name="filaGenerics" />
+        <module name="filaNoEmbutido2" />
         <module name="fila" />
       </profile>
     </annotationProcessing>

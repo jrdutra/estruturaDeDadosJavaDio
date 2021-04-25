@@ -1,16 +1,16 @@
 package one.digitalinnovation;
 
-public class Fila {
+public class Fila<T> {
 
     private No refNoEntradaFila = null;
 
-    public void enqueue(Object obj){
-        No novoNo = new No(obj);
+    public void enqueue(T object){
+        No novoNo = new No(object);
         novoNo.setRefNo(refNoEntradaFila);
         refNoEntradaFila = novoNo;
     }
 
-    public Object dequeue(){
+    public T dequeue(){
         if(!isEmpty()){
             No primeiroNo = refNoEntradaFila;
             No noAuxiliar = refNoEntradaFila;
@@ -23,12 +23,12 @@ public class Fila {
                   break;
               }
             }
-            return primeiroNo.getObject();
+            return (T) primeiroNo.getObject();
         }
         return null;
     }
 
-    public Object first(){
+    public T first(){
         if(!isEmpty()){
             No primeiroNo = refNoEntradaFila;
             while(true){
@@ -38,7 +38,7 @@ public class Fila {
                     break;
                 }
             }
-            return primeiroNo.getObject();
+            return (T) primeiroNo.getObject();
         }
         return null;
     }
