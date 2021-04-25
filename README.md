@@ -55,6 +55,8 @@ Sistema Operacional Windows
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Filas
     ◦ [ Etapa 2 ] - Implementação da classe Fila (Métodos: Enqueue, Dequeue)
     ◦ [ Etapa 3 ] - Utilização da Classe Fila
+    ◦ [ Etapa 4 ] - Refatoração para embutir o nó
+    ◦ [ Etapa 5 ] - Refatoração para utilização de generics
 
 • Aula – 4 Listas Encadeadas
 
