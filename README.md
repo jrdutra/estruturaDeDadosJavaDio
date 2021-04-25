@@ -14,7 +14,6 @@ Desenvolvi esse curso procurando abordar os assuntos da maneira mais simples pos
 [![Linkedin Badge](https://img.shields.io/badge/-João_Dutra-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jo%C3%A3o-dutra-400a9330/)](https://www.linkedin.com/in/jo%C3%A3o-dutra-400a9330/)
 [![Youtube Badge](https://img.shields.io/badge/-João_Dutra-red?style=flat-square&logo=Youtube&logoColor=white&link=https://www.youtube.com/channel/UCj1AuxI-1Y-sK19nJEpcb3Q)](https://www.youtube.com/channel/UCj1AuxI-1Y-sK19nJEpcb3Q/)
 [![Gmail Badge](https://img.shields.io/badge/-jrdutra.com.br@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jrdutra.com.br@gmail.com)](mailto:jrdutra.com.br@gmail.com)
-[![Whatsapp Badge](https://img.shields.io/badge/-(22)_99763_4093-green?style=flat-square&logo=Whatsapp&logoColor=white&link=#)]((22)99763-4093)
 
 ---
 
@@ -43,6 +42,8 @@ Sistema Operacional Windows
     ◦ [ Vídeo 3 ] - Instalação e Configuração do Ambiente
     ◦ [ Etapa 4 ] - Atribuição e Referência em Java
     ◦ [ Etapa 5 ] - Conceito de nó e Encadeamento de nó
+    ◦ [ Etapa 6 ] - Generics em Java
+    ◦ [ Etapa 7 ] - Refatoração da Classe No
 
 • Aula – 2 Pilhas [LIFO: Last In, First Out]
 
