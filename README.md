@@ -9,7 +9,7 @@ O curso pode ser acessado na plataforma da [Digital Innovation One](http://digit
  <sub><b>João Dutra</b></sub></a> <a href="https://web.digitalinnovation.one/users/jrdutra" title="Dio">🚀</a>
 
 
-Desenvolvi esse curso procurando abordar os assuntos da maneira mais simples possível. Estrutura de dados é um tema que à primeira vista parece complexo, pois me lembro quando estudei pela primeira vez utilizando a linguagem C e não consegui perceber do que se tratava logo vi. Se você tiver dúvidas sobre esse assunto, pode me procurar nas redes sociais, sempre que posso estou por lá trocando ideia com a comunidade, ajudando e sendo ajudado.
+Desenvolvi esse curso procurando abordar os assuntos da maneira mais simples possível. Estrutura de dados é um tema que à primeira vista parece complexo, pois me lembro quando estudei pela primeira vez utilizando a linguagem C e não consegui perceber do que se tratava. Se você tiver dúvidas sobre esse assunto, pode me procurar nas redes sociais, sempre que posso estou por lá trocando ideia com a comunidade, ajudando e sendo ajudado.
 
 [![Linkedin Badge](https://img.shields.io/badge/-João_Dutra-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jo%C3%A3o-dutra-400a9330/)](https://www.linkedin.com/in/jo%C3%A3o-dutra-400a9330/)
 [![Youtube Badge](https://img.shields.io/badge/-João_Dutra-red?style=flat-square&logo=Youtube&logoColor=white&link=https://www.youtube.com/channel/UCj1AuxI-1Y-sK19nJEpcb3Q)](https://www.youtube.com/channel/UCj1AuxI-1Y-sK19nJEpcb3Q/)
