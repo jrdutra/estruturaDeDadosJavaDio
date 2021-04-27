@@ -62,19 +62,19 @@ Sistema Operacional Windows
 • Aula – 4 Listas Encadeadas
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Encadeadas
-    ◦ [ Etapa 2 ] - Implementação da classe ListaEncadeada()
+    ◦ [ Etapa 2 ] - Implementação da classe ListaEncadeada
     ◦ [ Etapa 3 ] - Utilização da Classe ListaEncadeada
 
 • Aula – 5 Listas Duplamente Encadeadas
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Duplamente Encadeadas
-    ◦ [ Etapa 2 ] - Implementação da classe ListaDuplamenteEncadeada()
+    ◦ [ Etapa 2 ] - Implementação da classe ListaDuplamenteEncadeada
     ◦ [ Etapa 3 ] - Utilização da Classe ListaDuplamenteEncadeada
 
 • Aula – 6 Listas Circulares
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Circulares
-    ◦ [ Etapa 2 ] - Implementação da classe ListaCircular()
+    ◦ [ Etapa 2 ] - Implementação da classe ListaCircular
     ◦ [ Etapa 3 ] - Utilização da Classe ListaEncadeada
 
 • Aula – 7 Árvores
@@ -84,8 +84,8 @@ Sistema Operacional Windows
     ◦ [ Etapa 3 ] - Explicando operações básicas em árvores de busca binária
     ◦ [ Etapa 4 ] - Explicando atravessamento em Árvores Binárias
     ◦ [ Etapa 5 ] - Implementação da classe NoArvore (Nó Árvore)
-    ◦ [ Video 6 ] - Implementação da classe ArvoreBinaria()
-    ◦ [ Etapa 7 ] – Utilização da classe ArvoreBinaria()
+    ◦ [ Video 6 ] - Implementação da classe ArvoreBinaria
+    ◦ [ Etapa 7 ] – Utilização da classe ArvoreBinaria
 
 • Aula – 8 Principais Implementações das estruturas de dados do Java
 
