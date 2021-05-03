@@ -81,11 +81,12 @@ Sistema Operacional Windows
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Árvores
     ◦ [ Etapa 2 ] - Explicação teórica de Árvore de Busca Binária
-    ◦ [ Etapa 3 ] - Explicando operações básicas em árvores de busca binária
-    ◦ [ Etapa 4 ] - Explicando atravessamento em Árvores Binárias
-    ◦ [ Etapa 5 ] - Implementação da classe NoArvore (Nó Árvore)
-    ◦ [ Video 6 ] - Implementação da classe ArvoreBinaria
-    ◦ [ Etapa 7 ] – Utilização da classe ArvoreBinaria
+    ◦ [ Etapa 3 ] - A interface Comparable
+    ◦ [ Etapa 4 ] - Explicando operações básicas em árvores de busca binária
+    ◦ [ Etapa 5 ] - Explicando atravessamento em Árvores Binárias
+    ◦ [ Etapa 6 ] - Implementação da classe NoArvore (Nó Árvore)
+    ◦ [ Video 7 ] - Implementação da classe ArvoreBinaria
+    ◦ [ Etapa 8 ] – Utilização da classe ArvoreBinaria
 
 • Aula – 8 Principais Implementações das estruturas de dados do Java
 
