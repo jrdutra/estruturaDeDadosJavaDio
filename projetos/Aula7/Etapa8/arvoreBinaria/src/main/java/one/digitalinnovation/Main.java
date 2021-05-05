@@ -1,5 +1,7 @@
 package one.digitalinnovation;
 
+import one.digitalinnovation.model.Obj;
+
 public class Main {
 
     public static void main(String[] args){
@@ -21,11 +23,11 @@ public class Main {
         minhaArvore.exibirPreOrdem();
         minhaArvore.exibirPosOrdem();
 
-        //minhaArvore.remover(new Obj(7));
-        //minhaArvore.exibirInOrdem();
+        minhaArvore.remover(new Obj(7));
+        minhaArvore.exibirInOrdem();
 
-        //minhaArvore.remover(new Obj(2));
-        //minhaArvore.exibirInOrdem();
+        minhaArvore.remover(new Obj(2));
+        minhaArvore.exibirInOrdem();
 
     }
 

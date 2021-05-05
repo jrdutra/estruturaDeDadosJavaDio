@@ -1,8 +1,8 @@
-package one.digitalinnovation;
+package one.digitalinnovation.model;
 
 import java.util.Objects;
 
-public class Obj implements Comparable<Obj> {
+public class Obj extends ObjArvore<Obj> {
 
     Integer meuValor;
 
@@ -12,10 +12,14 @@ public class Obj implements Comparable<Obj> {
 
     @Override
     public int compareTo(Obj outro) {
-        return this.meuValor > outro.meuValor?
-                1 : this.meuValor < outro.meuValor?
-                    -1 :
-                        0;
+        int i = 0;
+
+        if(this.meuValor > outro.meuValor){
+            i = 1;
+        }else if(this.meuValor < outro.meuValor){
+            i = -1;
+        }
+        return i;
     }
 
     @Override
