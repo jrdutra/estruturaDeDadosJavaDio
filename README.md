@@ -94,6 +94,6 @@ Sistema Operacional Windows
     ◦ [ Etapa 2 ] - Stack (Pilha)
     ◦ [ Etapa 3 ] - Queue (Fila, LinkedList)
     ◦ [ Etapa 4 ] - List (ArrayList)
-    ◦ [ Etapa 5 ] - HashSet
-    ◦ [ Etapa 6 ] - HashMap 
+    ◦ [ Etapa 5 ] - Set (HashSet)
+    ◦ [ Etapa 6 ] - Map (HashMap)
     ◦ [ Etapa 7 ] - Conclusão
