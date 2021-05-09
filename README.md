@@ -92,8 +92,8 @@ Sistema Operacional Windows
 
     ◦ [ Etapa 1 ] - Conceitos de equals e hashCode
     ◦ [ Etapa 2 ] - Stack (Pilha)
-    ◦ [ Etapa 3 ] - Queue (Fila)
-    ◦ [ Etapa 4 ] - List (ArrayList, LikedList, Vector)
+    ◦ [ Etapa 3 ] - Queue (Fila, LinkedList)
+    ◦ [ Etapa 4 ] - List (ArrayList)
     ◦ [ Etapa 5 ] - HashSet
     ◦ [ Etapa 6 ] - HashMap 
     ◦ [ Etapa 7 ] - Conclusão
