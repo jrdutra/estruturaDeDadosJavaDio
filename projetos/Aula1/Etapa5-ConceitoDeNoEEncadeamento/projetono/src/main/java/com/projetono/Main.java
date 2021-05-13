@@ -14,10 +14,17 @@ public class Main {
         No no4 = new No("Conteúdo no4");
         no3.setProximoNo(no4);
 
-        System.out.println(no1.toStringEncadeado());
-        System.out.println(no2.toStringEncadeado());
-        System.out.println(no3.toStringEncadeado());
-        System.out.println(no4.toStringEncadeado());
+        System.out.println(no1);
+        System.out.println(no2);
+        System.out.println(no1.getProximoNo());
+
+        System.out.println("--------------------");
+
+        System.out.println(no1);
+        System.out.println(no1.getProximoNo());
+        System.out.println(no1.getProximoNo().getProximoNo());
+        System.out.println(no1.getProximoNo().getProximoNo().getProximoNo());
+
     }
 
 }

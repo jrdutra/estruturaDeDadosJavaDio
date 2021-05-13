@@ -1,34 +1,24 @@
-package com.estruturadedados;
+package com.projeto.atribuicaoreferencia;
 
 public class Main {
+
     public static void main(String[] args){
-        int a = 1;
-        int b = a;
-        System.out.println("a=" + a + " b=" + b);
-        a = 2;
-        System.out.println("a=" + a + " b=" + b);
 
-        class MeuObj{
-            Integer num;
-            public MeuObj(Integer n){
-                this.num = n;
-            }
+        int intA = 1;
+        int intB = intA;
 
-            public void setNum(Integer num) {
-                this.num = num;
-            }
-
-            @Override
-            public String toString() {
-                return this.num.toString();
-            }
-        }
+        System.out.println("intA=" + intA + " intB=" + intB);
+        intA = 2;
+        System.out.println("intA=" + intA + " intB=" + intB);
 
         MeuObj objA = new MeuObj(1);
-        MeuObj objb = objA;
-        System.out.println("objA=" + objA + " objb=" + objb);
+        MeuObj objB = objA;
 
+        System.out.println("objA=" + objA + " objB=" + objB);
         objA.setNum(2);
-        System.out.println("objA=" + objA + " objb=" + objb);
+        System.out.println("objA=" + objA + " objB=" + objB);
+
+
     }
+
 }

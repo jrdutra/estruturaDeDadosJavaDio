@@ -30,14 +30,4 @@ public class No {
         return "No{" + conteudo + '}';
     }
 
-    public String toStringEncadeado() {
-        String str = "No{" + conteudo + "}";
-
-        if(proximoNo != null){
-            str += "->" + proximoNo.toString();
-        }else{
-            str += "->null";
-        }
-        return str;
-    }
 }
