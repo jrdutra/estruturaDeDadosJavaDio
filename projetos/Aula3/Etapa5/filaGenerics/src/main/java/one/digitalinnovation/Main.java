@@ -2,9 +2,9 @@ package one.digitalinnovation;
 
 public class Main {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
-        Fila<String> minhaFila = new Fila<String>();
+        Fila<String> minhaFila = new Fila<>();
 
         minhaFila.enqueue("primeiro");
         minhaFila.enqueue("segundo");
@@ -21,6 +21,9 @@ public class Main {
 
         System.out.println(minhaFila);
 
+        System.out.println(minhaFila.first());
+
+        System.out.println(minhaFila);
     }
 
 }

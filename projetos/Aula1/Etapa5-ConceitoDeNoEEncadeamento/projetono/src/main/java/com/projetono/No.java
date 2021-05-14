@@ -2,10 +2,11 @@ package com.projetono;
 
 public class No {
 
-    public String conteudo;
-    public No proximoNo = null;
+    private String conteudo;
+    private No proximoNo;
 
-    public No(String conteudo){
+    public No(String conteudo) {
+        this.proximoNo = null;
         this.conteudo = conteudo;
     }
 
@@ -27,7 +28,8 @@ public class No {
 
     @Override
     public String toString() {
-        return "No{" + conteudo + '}';
+        return "No{" +
+                "conteudo='" + conteudo + '\'' +
+                '}';
     }
-
 }

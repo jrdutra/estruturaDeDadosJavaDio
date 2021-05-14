@@ -2,36 +2,22 @@ package one.digitalinnovation;
 
 public class Fila {
 
-    private No refNoEntradaFila = null;
+    private No refNoEntradaFila;
+
+    public Fila() {
+        this.refNoEntradaFila = null;
+    }
 
     public void enqueue(No novoNo){
         novoNo.setRefNo(refNoEntradaFila);
         refNoEntradaFila = novoNo;
     }
 
-    public No dequeue(){
-        if(!isEmpty()){
-            No primeiroNo = refNoEntradaFila;
-            No noAuxiliar = refNoEntradaFila;
-            while(true){
-              if(primeiroNo.getRefNo() != null) {
-                  noAuxiliar = primeiroNo;
-                  primeiroNo = primeiroNo.getRefNo();
-              }else{
-                  noAuxiliar.setRefNo(null);
-                  break;
-              }
-            }
-            return primeiroNo;
-        }
-        return null;
-    }
-
     public No first(){
-        if(!isEmpty()){
+        if(!this.isEmpty()){
             No primeiroNo = refNoEntradaFila;
-            while(true){
-                if(primeiroNo.getRefNo() != null) {
+            while (true){
+                if(primeiroNo.getRefNo() != null){
                     primeiroNo = primeiroNo.getRefNo();
                 }else{
                     break;
@@ -42,8 +28,26 @@ public class Fila {
         return null;
     }
 
+    public No dequeue(){
+        if(!this.isEmpty()){
+            No primeiroNo = refNoEntradaFila;
+            No noAuxiliar = refNoEntradaFila;
+            while (true){
+                if(primeiroNo.getRefNo() != null){
+                    noAuxiliar = primeiroNo;
+                    primeiroNo = primeiroNo.getRefNo();
+                }else{
+                    noAuxiliar.setRefNo(null);
+                    break;
+                }
+            }
+            return primeiroNo;
+        }
+        return null;
+    }
+
     public boolean isEmpty(){
-        return refNoEntradaFila == null ? true : false;
+        return refNoEntradaFila == null? true : false;
     }
 
     @Override
@@ -52,8 +56,8 @@ public class Fila {
         No noAuxiliar = refNoEntradaFila;
 
         if(refNoEntradaFila != null){
-            while(true){
-                stringRetorno += "[No{objeto="+ noAuxiliar.getObject() +"}]--->";
+            while (true){
+                stringRetorno += "[No{objeto=" + noAuxiliar.getObject() + "}]--->";
                 if(noAuxiliar.getRefNo() != null){
                     noAuxiliar = noAuxiliar.getRefNo();
                 }else{
@@ -64,7 +68,6 @@ public class Fila {
         }else{
             stringRetorno = "null";
         }
-
         return stringRetorno;
     }
 }
