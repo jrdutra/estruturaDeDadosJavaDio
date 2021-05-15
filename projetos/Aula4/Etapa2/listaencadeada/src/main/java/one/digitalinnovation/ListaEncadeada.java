@@ -23,10 +23,8 @@ public class ListaEncadeada<T> {
     }
 
     public T get(int index){
-        if(index >= size()){
-            int ultimoIndice = size()-1;
-            throw new IndexOutOfBoundsException("Não existe conteúdo no índice " + index + " desta lista. Esta lista só vai até o índice " + ultimoIndice + '.');
-        }
+        validaIndice(index);
+
         No<T> noAuxiliar = referenciaEntrada;
         T conteudo = null;
         for(int i = 0; i <= index; i++){
@@ -37,10 +35,8 @@ public class ListaEncadeada<T> {
     }
 
     private No<T> getNo(int index){
-        if(index >= size()){
-            int ultimoIndice = size()-1;
-            throw new IndexOutOfBoundsException("Não existe conteúdo no índice " + index + " desta lista. Esta lista só vai até o índice " + ultimoIndice + '.');
-        }
+        validaIndice(index);
+
         No<T> noAuxiliar = referenciaEntrada;
         No<T> noRetorno = null;
         for(int i = 0; i <= index; i++){
@@ -51,10 +47,7 @@ public class ListaEncadeada<T> {
     }
 
     public T remove(int index){
-        if(index >= size()){
-            int ultimoIndice = size()-1;
-            throw new IndexOutOfBoundsException("Não existe conteúdo no índice " + index + " desta lista. Esta lista só vai até o índice " + ultimoIndice + '.');
-        }
+        validaIndice(index);
 
         No<T> noPivor = getNo(index);
 
@@ -86,6 +79,13 @@ public class ListaEncadeada<T> {
             }
         }
         return tamanhoLista;
+    }
+
+    public void validaIndice(int index){
+        if(index >= size()){
+            int ultimoIndice = size()-1;
+            throw new IndexOutOfBoundsException("Não existe conteúdo no índice " + index + " desta lista. Esta lista só vai até o índice " + ultimoIndice + '.');
+        }
     }
 
     public boolean isEmpty(){

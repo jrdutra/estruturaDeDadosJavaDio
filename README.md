@@ -62,20 +62,23 @@ Sistema Operacional Windows
 • Aula – 4 Listas Encadeadas
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Encadeadas
-    ◦ [ Etapa 2 ] - Implementação da classe ListaEncadeada
-    ◦ [ Etapa 3 ] - Utilização da Classe ListaEncadeada
+    ◦ [ Etapa 2 ] - Implementação da classe No
+    ◦ [ Etapa 3 ] - Implementação da classe ListaEncadeada
+    ◦ [ Etapa 4 ] - Utilização da Classe ListaEncadeada
 
 • Aula – 5 Listas Duplamente Encadeadas
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Duplamente Encadeadas
-    ◦ [ Etapa 2 ] - Implementação da classe ListaDuplamenteEncadeada
-    ◦ [ Etapa 3 ] - Utilização da Classe ListaDuplamenteEncadeada
+    ◦ [ Etapa 2 ] - Implementação da classe No
+    ◦ [ Etapa 3 ] - Implementação da classe ListaDuplamenteEncadeada
+    ◦ [ Etapa 4 ] - Utilização da Classe ListaDuplamenteEncadeada
 
 • Aula – 6 Listas Circulares
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Circulares
-    ◦ [ Etapa 2 ] - Implementação da classe ListaCircular
-    ◦ [ Etapa 3 ] - Utilização da Classe ListaEncadeada
+    ◦ [ Etapa 2 ] - Implementação da classe No
+    ◦ [ Etapa 3 ] - Implementação da classe ListaCircular
+    ◦ [ Etapa 4] - Utilização da Classe ListaEncadeada
 
 • Aula – 7 Árvores
 
