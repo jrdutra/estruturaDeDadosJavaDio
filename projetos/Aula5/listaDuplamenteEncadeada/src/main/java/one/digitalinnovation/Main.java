@@ -20,6 +20,7 @@ public class Main {
         minhaListaEncadeada.add(3, "99");
 
         System.out.println(minhaListaEncadeada);
+        System.out.println(minhaListaEncadeada.get(3));
     }
 
 }
