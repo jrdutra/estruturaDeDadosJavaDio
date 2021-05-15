@@ -63,8 +63,13 @@ Sistema Operacional Windows
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Encadeadas
     ◦ [ Etapa 2 ] - Implementação da classe No
-    ◦ [ Etapa 3 ] - Implementação da classe ListaEncadeada
-    ◦ [ Etapa 4 ] - Utilização da Classe ListaEncadeada
+    ◦ [ Etapa 3 ] - Implementação da classe ListaEncadeada (isEmpty e size())
+    ◦ [ Etapa 4 ] - Implementação da classe ListaEncadeada (add())
+    ◦ [ Etapa 5 ] - Implementação da classe ListaEncadeada (getNo())
+    ◦ [ Etapa 6 ] - Implementação da classe ListaEncadeada (get())
+    ◦ [ Etapa 7 ] - Implementação da classe ListaEncadeada (remove())
+    ◦ [ Etapa 8 ] - Implementação da classe ListaEncadeada (toString())
+    ◦ [ Etapa 9 ] - Utilização da Classe ListaEncadeada
 
 • Aula – 5 Listas Duplamente Encadeadas
 
