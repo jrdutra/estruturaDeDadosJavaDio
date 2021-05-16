@@ -74,16 +74,25 @@ Sistema Operacional Windows
 • Aula – 5 Listas Duplamente Encadeadas
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Duplamente Encadeadas
-    ◦ [ Etapa 2 ] - Implementação da classe No
-    ◦ [ Etapa 3 ] - Implementação da classe ListaDuplamenteEncadeada
-    ◦ [ Etapa 4 ] - Utilização da Classe ListaDuplamenteEncadeada
+    ◦ [ Etapa 2 ] - Implementação da classe NoDuplo
+    ◦ [ Etapa 3 ] - Implementação da classe ListaDuplamenteEncadeada (size())
+    ◦ [ Etapa 4 ] - Implementação da classe ListaDuplamenteEncadeada (getNo(), get())
+    ◦ [ Etapa 5 ] - Implementação da classe ListaDuplamenteEncadeada (add())
+    ◦ [ Etapa 6 ] - Implementação da classe ListaDuplamenteEncadeada (add(index))
+    ◦ [ Etapa 7 ] - Implementação da classe ListaDuplamenteEncadeada (remove())
+    ◦ [ Etapa 8 ] - Implementação da classe ListaDuplamenteEncadeada (toString())
+    ◦ [ Etapa 9 ] - Utilização da Classe ListaDuplamenteEncadeada
 
 • Aula – 6 Listas Circulares
 
     ◦ [ Etapa 1 ] - Explicação teórica do conceito de Listas Circulares
     ◦ [ Etapa 2 ] - Implementação da classe No
-    ◦ [ Etapa 3 ] - Implementação da classe ListaCircular
-    ◦ [ Etapa 4] - Utilização da Classe ListaEncadeada
+    ◦ [ Etapa 3 ] - Implementação da classe ListaCircular (isEmpty()e size())
+    ◦ [ Etapa 4 ] - Implementação da classe ListaCircular (getNo() e get())
+    ◦ [ Etapa 5 ] - Implementação da classe ListaCircular (remove())
+    ◦ [ Etapa 6 ] - Implementação da classe ListaCircular (add())
+    ◦ [ Etapa 7 ] - Implementação da classe ListaCircular (toStrinf())
+    ◦ [ Etapa 8 ] - Utilização da Classe ListaCircular
 
 • Aula – 7 Árvores
 
