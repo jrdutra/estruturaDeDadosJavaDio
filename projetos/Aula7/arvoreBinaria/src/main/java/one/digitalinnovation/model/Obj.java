@@ -6,8 +6,21 @@ public class Obj extends ObjArvore<Obj> {
 
     Integer meuValor;
 
-    public Obj(Integer meuValor) {
+    public Obj(Integer meuValor){
         this.meuValor = meuValor;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Obj obj = (Obj) o;
+        return Objects.equals(meuValor, obj.meuValor);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(meuValor);
     }
 
     @Override
@@ -19,24 +32,12 @@ public class Obj extends ObjArvore<Obj> {
         }else if(this.meuValor < outro.meuValor){
             i = -1;
         }
+
         return i;
     }
 
     @Override
     public String toString() {
         return meuValor.toString();
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Obj)) return false;
-        Obj that = (Obj) o;
-        return Objects.equals(meuValor, that.meuValor);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(meuValor);
     }
 }

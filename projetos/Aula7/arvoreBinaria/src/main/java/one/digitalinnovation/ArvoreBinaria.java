@@ -4,7 +4,7 @@ public class ArvoreBinaria<T extends Comparable<T>> {
 
     private BinNo<T> raiz;
 
-    public ArvoreBinaria() {
+    public ArvoreBinaria(){
         this.raiz = null;
     }
 
@@ -25,7 +25,7 @@ public class ArvoreBinaria<T extends Comparable<T>> {
     }
 
     public void exibirInOrdem(){
-        System.out.println("\nExibindo InOrdem");
+        System.out.println("\n Exibindo InOrdem");
         exibirInOrdem(this.raiz);
     }
 
@@ -38,7 +38,7 @@ public class ArvoreBinaria<T extends Comparable<T>> {
     }
 
     public void exibirPosOrdem(){
-        System.out.println("\nExibindo PosOrdem");
+        System.out.println("\n Exibindo PosOrdem");
         exibirPosOrdem(this.raiz);
     }
 
@@ -51,7 +51,7 @@ public class ArvoreBinaria<T extends Comparable<T>> {
     }
 
     public void exibirPreOrdem(){
-        System.out.println("\nExibindo PreOrdem");
+        System.out.println("\n Exibindo PreOrdem");
         exibirPreOrdem(this.raiz);
     }
 
@@ -80,54 +80,60 @@ public class ArvoreBinaria<T extends Comparable<T>> {
             }
 
             if(atual == null){
-                System.out.println("Conteúdo não encontrado. Bloco Try");
+                System.out.println("Conteudo nao encontrado. Bloco Try");
             }
 
             if(pai == null){
                 if(atual.getNoDir() == null){
                     this.raiz = atual.getNoEsq();
-                }else if (atual.getNoEsq() == null){
-                    raiz = atual.getNoDir();
+                }else if(atual.getNoEsq() == null){
+                    this.raiz = atual.getNoDir();
                 }else {
-                    for (temp = atual, filho = atual.getNoEsq();
-                         filho.getNoDir() != null;
-                         temp = filho, filho = filho.getNoEsq());
-                        if (filho != atual.getNoEsq()) {
+                    for(temp = atual, filho = atual.getNoEsq();
+                        filho.getNoDir() != null;
+                        temp = filho, filho = filho.getNoEsq()
+                    ){
+                        if(filho != atual.getNoEsq()){
                             temp.setNoDir(filho.getNoEsq());
                             filho.setNoEsq(raiz.getNoEsq());
                         }
+                    }
                     filho.setNoDir(raiz.getNoDir());
                     raiz = filho;
                 }
             }else if(atual.getNoDir() == null){
                 if(pai.getNoEsq() == atual){
                     pai.setNoEsq(atual.getNoEsq());
-                }else{
+                }else {
                     pai.setNoDir(atual.getNoEsq());
                 }
             }else if(atual.getNoEsq() == null){
                 if(pai.getNoEsq() == atual){
                     pai.setNoEsq(atual.getNoDir());
-                }else{
+                }else {
                     pai.setNoDir(atual.getNoDir());
                 }
             }else{
-                for(temp=atual, filho = atual.getNoEsq();
-                    filho.getNoDir() != null;
-                    temp = filho, filho = filho.getNoDir());
-                if(filho != atual.getNoEsq()){
-                    temp.setNoDir(filho.getNoEsq());
-                    filho.setNoEsq(atual.getNoEsq());
-                }
-                filho.setNoDir(atual.getNoDir());
-                if(pai.getNoEsq() == atual){
-                    pai.setNoEsq(filho);
-                }else{
-                    pai.setNoDir(filho);
+                for(
+                        temp = atual, filho = atual.getNoEsq();
+                        filho.getNoDir() != null;
+                        temp = filho, filho = filho.getNoDir()
+                ){
+                    if(filho != atual.getNoEsq()){
+                        temp.setNoDir(filho.getNoEsq());
+                        filho.setNoEsq(atual.getNoEsq());
+                    }
+                    filho.setNoDir(atual.getNoDir());
+                    if(pai.getNoEsq() == atual){
+                        pai.setNoEsq(filho);
+                    }else{
+                        pai.setNoDir(filho);
+                    }
                 }
             }
         }catch (NullPointerException erro){
-            System.out.println("Conteúdo não encontrado. Bloco Catch");
+            System.out.println("Conteudo nao encontrado. Bloco Catch");
         }
     }
+
 }
