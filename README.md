@@ -21,7 +21,7 @@ Desenvolvi esse curso procurando abordar os assuntos da maneira mais simples pos
 
 **Apresentações/Slides** utilizados durante as aulas. [Acessar](https://github.com/jrdutra/estruturaDeDadosJavaDio/tree/main/apresentacoes)
 
-**Projetos/Código** Fonte desenvolvidos durantes as aulas. [Acessar](https://github.com/jrdutra/estruturaDeDadosJavaDio/tree/main/projetos)
+**Projetos/Código** Fonte desenvolvidos durante as aulas. [Acessar](https://github.com/jrdutra/estruturaDeDadosJavaDio/tree/main/projetos)
 
 **Ementa/Roteiro** do curso. [Acessar](https://github.com/jrdutra/estruturaDeDadosJavaDio/blob/main/Ementa-curso.pdf)
 
