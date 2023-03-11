@@ -53,7 +53,7 @@ public class ListaDuplamenteEncadeada<T> {
             if(noAuxiliar != ultimoNo){
                 noAuxiliar.getNoProximo().setNoPrevio(noAuxiliar.getNoPrevio());
             }else{
-                ultimoNo = noAuxiliar.getNoPrevio();;
+                ultimoNo = noAuxiliar.getNoPrevio();
             }
         }
         tamanhoLista--;
