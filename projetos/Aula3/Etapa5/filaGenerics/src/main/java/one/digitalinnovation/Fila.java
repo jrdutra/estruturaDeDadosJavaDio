@@ -8,19 +8,19 @@ public class Fila<T> {
         this.refNoEntradaFila = null;
     }
 
-    public void enqueue(T object){
+    public void enqueue(T object) {
         No novoNo = new No(object);
         novoNo.setRefNo(refNoEntradaFila);
         refNoEntradaFila = novoNo;
     }
 
-    public T first(){
-        if(!this.isEmpty()){
+    public T first() {
+        if (!this.isEmpty()) {
             No primeiroNo = refNoEntradaFila;
-            while (true){
-                if(primeiroNo.getRefNo() != null){
+            while (true) {
+                if (primeiroNo.getRefNo() != null) {
                     primeiroNo = primeiroNo.getRefNo();
-                }else{
+                } else {
                     break;
                 }
             }
@@ -29,15 +29,19 @@ public class Fila<T> {
         return null;
     }
 
-    public T dequeue(){
-        if(!this.isEmpty()){
+    public T dequeue() {
+        if (!this.isEmpty()) {
             No primeiroNo = refNoEntradaFila;
             No noAuxiliar = refNoEntradaFila;
-            while (true){
-                if(primeiroNo.getRefNo() != null){
+
+            if (refNoEntradaFila.getRefNo() == null)
+                refNoEntradaFila = null;
+
+            while (true) {
+                if (primeiroNo.getRefNo() != null) {
                     noAuxiliar = primeiroNo;
                     primeiroNo = primeiroNo.getRefNo();
-                }else{
+                } else {
                     noAuxiliar.setRefNo(null);
                     break;
                 }
@@ -47,8 +51,8 @@ public class Fila<T> {
         return null;
     }
 
-    public boolean isEmpty(){
-        return refNoEntradaFila == null? true : false;
+    public boolean isEmpty() {
+        return refNoEntradaFila == null ? true : false;
     }
 
     @Override
@@ -56,17 +60,17 @@ public class Fila<T> {
         String stringRetorno = "";
         No noAuxiliar = refNoEntradaFila;
 
-        if(refNoEntradaFila != null){
-            while (true){
+        if (refNoEntradaFila != null) {
+            while (true) {
                 stringRetorno += "[No{objeto=" + noAuxiliar.getObject() + "}]--->";
-                if(noAuxiliar.getRefNo() != null){
+                if (noAuxiliar.getRefNo() != null) {
                     noAuxiliar = noAuxiliar.getRefNo();
-                }else{
+                } else {
                     stringRetorno += "null";
                     break;
                 }
             }
-        }else{
+        } else {
             stringRetorno = "null";
         }
         return stringRetorno;
